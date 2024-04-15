@@ -9,4 +9,4 @@ function Intro2(){
     
   )};
 
-export default Intro2
+export default Intro2;
