@@ -17,17 +17,18 @@ import Intro1 from "./Components/Intro1";
 import Intro2 from "./Components/Intro2";
 import Intro3 from "./Components/Intro3";
 import Footer from "./Components/Footer";
+import "./App.css";
 
 
 function App(){
   return (
     <div className="App">
-      <Nav/>
-      <Promo/>
-      <Intro1/>
-      <Intro2/>
-      <Intro3/>
-      <Footer/>
+      <Nav name="Anna" color="green"/>
+      <Promo greet="Honey"/>
+      <Intro1 type="gender"/>
+      <Intro2 type="business"/>
+      <Intro3 type="like"/>
+      <Footer name="shopping cart" color="blue"/>
     </div>
   )
 };
