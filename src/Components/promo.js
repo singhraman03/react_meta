@@ -1,4 +1,4 @@
-function Promo(){
+function Promo(props){
   return (
     <div className="Promo-Offers">
       <div>
@@ -13,4 +13,4 @@ function Promo(){
     </div>
   )};
 
-export default Promo
+export default Promo;
