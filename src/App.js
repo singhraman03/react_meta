@@ -18,6 +18,7 @@ import Intro2 from "./Components/Intro2";
 import Intro3 from "./Components/Intro3";
 import Footer from "./Components/Footer";
 import "./App.css";
+import "./index.js";
 
 
 function App(){
