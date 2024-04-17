@@ -19,11 +19,18 @@ import Intro3 from "./Components/Intro3";
 import Footer from "./Components/Footer";
 import "./App.css";
 import "./index.js";
+import image from "./image.png";
+
+function Logo(props){
+  const myLogo = <img src= {image}/>;
+  return myLogo;
+}
 
 
 function App(){
   return (
     <div className="App">
+      <Logo/>
       <Nav name="Anna" color="green"/>
       <Promo greet="Honey"/>
       <Intro1 type="gender"/>
