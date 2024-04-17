@@ -32,11 +32,11 @@ function App(){
   return (
     <div className="App">
       <Logo/>
-      <h1> Task: Add three card elements
-        <Card h2="First card's h2" h3="First card's h3"/>
-        <Card h2="second card's h2" h3="second card's h3"/>
-        <Card h2="third card's h3" h3="third card's h3"/>
-      </h1>
+      <h1> Task: Add three card elements </h1>
+      <Card h2="First card's h2" h3="First card's h3"/>
+      <Card h2="second card's h2" h3="second card's h3"/>
+      <Card h2="third card's h3" h3="third card's h3"/>
+      
       <Nav name="Anna" color="green"/>
       <Promo greet="Honey"/>
       <Intro1 type="gender"/>
