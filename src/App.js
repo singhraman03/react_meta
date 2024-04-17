@@ -48,7 +48,7 @@ function App(){
 
       
       <Nav name="Anna" color="green"/>
-      <Promo greet="Honey"/>
+      <Promo />
       <Intro1 type="gender"/>
       <Intro2 type="business"/>
       <Intro3 type="like"/>
