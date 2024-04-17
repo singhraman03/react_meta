@@ -22,6 +22,7 @@ import "./index.js";
 import image from "./image.png";
 import Card from "./Components/Card";
 import Btn from "./Components/Btn";
+import ModeToggler from "./Components/ModeToggler";
 
 function Logo(props){
   const myLogo = <img src= {image}/>;
@@ -40,7 +41,9 @@ function App(){
 
       <> 
       <Btn className='button'/>
-        </>
+      </>
+      <ModeToggler/>
+
       
       <Nav name="Anna" color="green"/>
       <Promo greet="Honey"/>
