@@ -23,6 +23,7 @@ import image from "./image.png";
 import Card from "./Components/Card";
 import Btn from "./Components/Btn";
 import ModeToggler from "./Components/ModeToggler";
+import Button from './Components/Button';
 
 function Logo(props){
   const myLogo = <img src= {image}/>;
@@ -43,6 +44,7 @@ function App(){
       <Btn className='button'/>
       </>
       <ModeToggler/>
+      <Button/>
 
       
       <Nav name="Anna" color="green"/>
