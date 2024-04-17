@@ -20,6 +20,7 @@ import Footer from "./Components/Footer";
 import "./App.css";
 import "./index.js";
 import image from "./image.png";
+import Card from "./Components/Card";
 
 function Logo(props){
   const myLogo = <img src= {image}/>;
@@ -31,6 +32,11 @@ function App(){
   return (
     <div className="App">
       <Logo/>
+      <h1> Task: Add three card elements
+        <Card h2="First card's h2" h3="First card's h3"/>
+        <Card h2="second card's h2" h3="second card's h3"/>
+        <Card h2="third card's h3" h3="third card's h3"/>
+      </h1>
       <Nav name="Anna" color="green"/>
       <Promo greet="Honey"/>
       <Intro1 type="gender"/>
