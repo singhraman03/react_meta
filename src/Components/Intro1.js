@@ -10,3 +10,21 @@ function Intro1(props){
     </div>
 )};
 export default Intro1;
+
+// const myRandom = () => {
+//   return  Math.floor(Math.random()*10) +1
+
+// }
+
+// // invoking function inside JSX 
+
+// function getRandom(){
+//   return(
+//     <div className="getRandom">
+//       <h1>{myRandom()}</h1>
+//       <h1>{math.random() >= 0.5 ? "above 0.5": "below 0.5"}</h1> // using ternary in JSX
+//     </div>
+
+//   );
+// }
+
