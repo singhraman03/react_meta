@@ -21,6 +21,7 @@ import "./App.css";
 import "./index.js";
 import image from "./image.png";
 import Card from "./Components/Card";
+import Btn from "./Components/Btn";
 
 function Logo(props){
   const myLogo = <img src= {image}/>;
@@ -36,6 +37,10 @@ function App(){
       <Card h2="First card's h2" h3="First card's h3"/>
       <Card h2="second card's h2" h3="second card's h3"/>
       <Card h2="third card's h3" h3="third card's h3"/>
+
+      <> 
+      <Btn className='button'/>
+        </>
       
       <Nav name="Anna" color="green"/>
       <Promo greet="Honey"/>
