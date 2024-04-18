@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Header } from 'react';
 
 function ApiCalls(){
   const[Data, setData] = useState(null);
@@ -12,10 +13,8 @@ function ApiCalls(){
 
   return(
     <div className="App">
-      <Header className="Main-Header">
         <h1>Data from API</h1>
         <pre>{JSON.stringify(Data, null, 2)}</pre>
-      </Header>
     </div>
   )
 };
