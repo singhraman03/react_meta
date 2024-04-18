@@ -25,6 +25,7 @@ import Btn from "./Components/Btn";
 import ModeToggler from "./Components/ModeToggler";
 import Button from './Components/Button';
 import InputComponent from './Components/InputComponent';
+import RegisterForm from './Components/RegisterForm';
 
 function Logo(props){
   const myLogo = <img src= {image}/>;
@@ -47,6 +48,7 @@ function App(){
       <ModeToggler/>
       <Button/>
       <InputComponent/>
+      <RegisterForm/>
 
       
       <Nav name="Anna" color="green"/>
