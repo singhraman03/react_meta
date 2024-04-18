@@ -24,6 +24,7 @@ import Card from "./Components/Card";
 import Btn from "./Components/Btn";
 import ModeToggler from "./Components/ModeToggler";
 import Button from './Components/Button';
+import InputComponent from './Components/InputComponent';
 
 function Logo(props){
   const myLogo = <img src= {image}/>;
@@ -45,6 +46,7 @@ function App(){
       </>
       <ModeToggler/>
       <Button/>
+      <InputComponent/>
 
       
       <Nav name="Anna" color="green"/>
