@@ -27,6 +27,8 @@ import Button from './Components/Button';
 import InputComponent from './Components/InputComponent';
 import RegisterForm from './Components/RegisterForm';
 import ApiCalls from './Components/ApiCalls';
+import Fruits from './Components/Fruits';
+import FruitsCounter from './Components/FruitsCounter';
 
 function Logo(props){
   const myLogo = <img src= {image}/>;
@@ -51,6 +53,9 @@ function App(){
       <InputComponent/>
       <RegisterForm/>
       <ApiCalls/>
+      <h1>Where should the state go?</h1>\
+      <Fruits Fruits= {Fruits}/>
+      <FruitsCounter Fruits= {Fruits}/>
 
       
       <Nav name="Anna" color="green"/>
@@ -60,6 +65,7 @@ function App(){
       <Intro3 type="like"/>
       <Footer name="shopping cart" color="blue"/>
     </div>
+    
   )
 };
 
