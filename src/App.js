@@ -29,6 +29,12 @@ import RegisterForm from './Components/RegisterForm';
 import ApiCalls from './Components/ApiCalls';
 import Fruits from './Components/Fruits';
 import FruitsCounter from './Components/FruitsCounter';
+import Contact from './Components/Contact';
+import Homepage from './Components/Homepage';
+import AboutMe  from './Components/AboutMe';
+import {routes, route, Link} from 'react-router-dom';
+
+
 
 function Logo(props){
   const myLogo = <img src= {image}/>;
@@ -39,6 +45,16 @@ function Logo(props){
 function App(){
   return (
     <div className="App">
+      <nav className='Nav-items'>
+        <link to="/" className="Nav-items">Homepage</link>
+        <link to="/About" className='Nav-items'>About Me</link>
+        <link to="/Contact" className='Nav-items'>Contact</link>
+      </nav>
+      <routes>
+        <route path="/" element={<Homepage/>}></route>
+        <route path="/AboutMe" element={<AboutMe/>}></route>
+        <route path="/Contact" element={<Contact/>}></route>
+      </routes>
       <Logo/>
       <h1> Task: Add three card elements </h1>
       <Card h2="First card's h2" h3="First card's h3"/>
